@@ -1,9 +1,9 @@
 /* @flow */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { ART } from 'react-native';
 const { Path, Shape } = ART;
 import * as C from './constants';
-
+import PropTypes from "prop-types";
 export default class Circle extends Component {
 	static propTypes = {
 		radius: PropTypes.number.isRequired,
