@@ -1,7 +1,8 @@
 /* @flow */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { uniqueValuesInDataSets } from './util';
+import PropTypes from "prop-types";
 
 const styles = StyleSheet.create({
 	yAxisContainer: {
