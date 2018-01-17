@@ -1,6 +1,6 @@
 /* @flow */
 'use strict';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { LayoutAnimation, StyleSheet, View } from 'react-native';
 import BarChart from './BarChart';
 import LineChart from './LineChart';
@@ -8,7 +8,7 @@ import PieChart from './PieChart';
 import YAxis from './yAxis';
 import XAxis from './xAxis';
 import * as C from './constants';
-
+import PropTypes from "prop-types";
 const styles = StyleSheet.create({
 	default: {},
 });
